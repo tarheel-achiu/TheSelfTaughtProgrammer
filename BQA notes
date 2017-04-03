@@ -1,0 +1,111 @@
+email: enrolltest@mailinator.com
+pw: 111Maiden$
+
+email: enrolls@mailinator.com
+pw: 111Maiden$
+now sent to be tax exempt
+
+email:   notaxrc2pc@mailinator.com
+pw: 111Maiden$
+now sent to be tax exempt
+
+Australia Orders
+
+RC: b@mailinator.com
+6273122
+
+
+PC: a@mailinator.com
+6273128 - enrollment order
+6273131
+
+Con: c@mailinator.com
+6273138 - enrollment order
+6273141 - over $1000
+6273144
+---------------------------------------------
+For R/C to P/C upgrade
+No product return refund
+
+Refund immediately
+
+RF15.01 - RC order: 6273618
+RF15.02 - RC order: 6273621
+RF15.03 - RC order: 6274446
+RF15.04 - RC order: 6273629
+RF15.05 - RC order: 6273638
+
+RC to PC:
+Create RC order normally
+____________________________________________
+
+Finance:
+Order: 1200002277
+Return: 1200002449
+
+Consultant Reporting:
+Order: 1200002297
+Return: 1200002435
+----------------------------------------------
+Outstanding bugs
+
+REH-1876 still open
+REH-2402 still open
+REH-2379 asked to close
+REH-2031 asked to close
+REH-2630 asked to close
+REH-2612 asked to close
+_______________________________________________
+EDL Accounts US:
+bifresh@mailinator.com      111Maiden$      Consultant
+sninja@mailinator.com       111Maiden$      Retail
+sburrito@mailinator.com     111Maiden$      Preferred
+bagel@mailinator.com        111Maiden$      Consultant
+msplinter@mailinator.com    111Maiden$      Consultant
+
+-----------------------------------------------
+EDL Accounts CAN
+pspandex@mailinator.com      111Maiden$      Retail
+glass@mailinator.com        111Maiden$      Preferred
+hadron@mailinator.com       111Maiden$      Consultant
+
+----------------------------------------------
+Consultant enrollment: 1200000811
+Taxable: 1200000814
+Non-taxable: 1200000817
+Mixed tax: 1200000828
+PFC mixed: 1200000831
+-----------------------------------------------
+EDL Retail:
+1200000951
+
+
+EDL Preferred:
+1200000965
+
+EDL Consultant:
+------------------------------------------------
+
+1200001053
+1200001055
+1200001059
+1200001061
+1200001063
+1200001065
+1200001069
+-------------------------------------------------
+tarheels@mailinator.com     111Maiden$      Consultant
+1200001255
+1200001257
+1200001263
+1200001266
+1200001270
+---------------------------------------------------
+Returns process
+1. Create and process an order, make sure it is in shipped status
+2. Return the Order in Hybris
+3. Communicate with 3PL to send return file by placing in box folder
+4. Batch program picks up file
+5. auto: PGR
+6. auto: remove credit block
+7. auto: issue credit memo
