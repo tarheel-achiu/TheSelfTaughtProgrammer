@@ -30,10 +30,10 @@ class Queue:
 
 
         for i in range(10):
-            p1.enqueue("person" + str(i))
+            pq.enqueue("person" + str(i))
 
 
-        t_end = time.time() + till_show()
+        t_end = time.time() + till_show
         now = time.time()
         while now < t_end \
         and not pq.is_empty():
